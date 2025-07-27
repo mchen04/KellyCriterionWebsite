@@ -6,25 +6,25 @@ const UseCases = () => {
     {
       icon: TrendingUp,
       title: 'Sports Betting',
-      description: 'Optimize your sports betting bankroll with mathematically sound position sizing for consistent long-term growth.',
+      description: 'Professional bankroll management for NFL, NBA, MLB, NHL, and more. Input American or decimal odds directly - no conversion needed.',
       color: 'text-green-500'
     },
     {
       icon: Target,
-      title: 'Investment Portfolio',
-      description: 'Apply Kelly Criterion principles to investment decisions and position sizing in your trading portfolio.',
+      title: 'Live Betting',
+      description: 'Quick calculations for in-play betting when lines move fast. Save presets for different sports and adjust Kelly fraction on the fly.',
       color: 'text-blue-500'
     },
     {
       icon: PieChart,
-      title: 'Risk Management',
-      description: 'Professional risk management tool for any scenario requiring optimal capital allocation decisions.',
+      title: 'Multi-Sport Bankroll',
+      description: 'Manage separate bankrolls for different sports or betting strategies. Switch between conservative and aggressive Kelly fractions.',
       color: 'text-orange-500'
     },
     {
       icon: GraduationCap,
-      title: 'Learning & Education',
-      description: 'Perfect educational tool for understanding probability theory and mathematical decision making.',
+      title: 'Sharp Betting Education',
+      description: 'Learn why professional bettors use Kelly Criterion. Understand optimal bet sizing and avoid the common mistake of overbetting.',
       color: 'text-purple-500'
     }
   ];
@@ -67,10 +67,11 @@ const UseCases = () => {
               Why Mathematical Position Sizing Matters
             </h3>
             <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-relaxed">
-              The Kelly Criterion isn't just theory—it's a proven mathematical approach used by professional traders, 
-              hedge funds, and successful bettors worldwide. By calculating the optimal fraction of your bankroll to 
-              risk on each opportunity, you maximize long-term growth while minimizing the risk of ruin. 
-              It's the difference between gambling and making calculated, data-driven decisions.
+              The Kelly Criterion is a mathematical formula that calculates optimal bet sizing based on your edge 
+              and the odds. It maximizes long-term geometric growth rate—but only when you truly know your edge. 
+              Important: Kelly betting is volatile (33% chance of halving your bankroll before doubling it) and 
+              requires accurate probability estimates. Most professionals use fractional Kelly (25-50% of full Kelly) 
+              to reduce variance while maintaining positive expected growth.
             </p>
           </div>
         </div>
