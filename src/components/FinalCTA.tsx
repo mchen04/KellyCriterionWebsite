@@ -34,46 +34,27 @@ const FinalCTA = () => {
   ];
 
   return (
-    <section id="download" className="py-32 bg-black relative overflow-hidden">
-      {/* Animated grid background */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 opacity-10">
-          <motion.div 
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `radial-gradient(circle at 50% 50%, rgba(74, 222, 128, 0.3) 0%, transparent 70%)`,
-            }}
-            animate={{
-              scale: [1, 1.2, 1],
-              opacity: [0.3, 0.5, 0.3]
-            }}
-            transition={{ duration: 8, repeat: Infinity }}
-          />
+    <section id="download" className="py-32 bg-black relative">
+      <div className="relative overflow-hidden">
+        {/* Animated grid background */}
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 opacity-10">
+            <motion.div 
+              className="absolute inset-0"
+              style={{
+                backgroundImage: `radial-gradient(circle at 50% 50%, rgba(74, 222, 128, 0.3) 0%, transparent 70%)`,
+              }}
+              animate={{
+                scale: [1, 1.2, 1],
+                opacity: [0.3, 0.5, 0.3]
+              }}
+              transition={{ duration: 8, repeat: Infinity }}
+            />
+          </div>
+          
         </div>
-        
-        {/* Animated lines */}
-        {[...Array(5)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute h-px bg-gradient-to-r from-transparent via-green-500/30 to-transparent"
-            style={{
-              top: `${20 + i * 20}%`,
-              width: '200%',
-              left: '-50%'
-            }}
-            animate={{
-              x: ['-50%', '50%']
-            }}
-            transition={{
-              duration: 20 + i * 5,
-              repeat: Infinity,
-              ease: 'linear'
-            }}
-          />
-        ))}
-      </div>
 
-      <div className="max-w-6xl mx-auto px-4 relative z-10">
+        <div className="max-w-6xl mx-auto px-4 relative z-10">
         {/* Live ticker */}
         <motion.div 
           className="flex justify-center mb-12"
@@ -81,13 +62,13 @@ const FinalCTA = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <div className="inline-flex items-center gap-8 px-6 py-3 bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-full">
+          <div className="inline-flex items-center gap-8 px-6 py-3 bg-gray-900/80 backdrop-blur-sm border border-gray-800 rounded-full">
             {liveStats.map((stat, i) => (
               <div key={i} className="flex items-center gap-3">
                 <stat.icon className="w-4 h-4 text-green-400" />
                 <div className="flex items-center gap-2">
                   <span className="text-xs text-gray-500">{stat.label}:</span>
-                  <span className="font-mono text-white font-bold">{stat.value}</span>
+                  <span className="font-mono text-white font-bold opacity-100">{stat.value}</span>
                   <span className={`text-xs ${
                     stat.change === 'STABLE' ? 'text-yellow-400' : 'text-green-400'
                   }`}>
@@ -257,10 +238,13 @@ const FinalCTA = () => {
             No subscriptions. No hidden fees. Just mathematical edge.
           </p>
         </motion.div>
+      </div>
+      </div>
 
-        {/* Legal Disclaimer */}
+      {/* Legal Disclaimer - Outside the animated container */}
+      <div className="max-w-6xl mx-auto px-4 relative z-20 mt-24">
         <motion.div
-          className="mt-12 p-6 bg-red-500/10 border border-red-500/30 rounded-xl max-w-4xl mx-auto"
+          className="p-6 bg-red-500/10 border border-red-500/30 rounded-xl max-w-4xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 1.7 }}
