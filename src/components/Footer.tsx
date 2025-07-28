@@ -54,7 +54,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a 
-                  href="mailto:support@kellystakes.app" 
+                  href="mailto:kellystakesapp@gmail.com" 
                   className="text-gray-400 hover:text-green-500 transition-colors duration-200 flex items-center space-x-2"
                 >
                   <Mail className="w-4 h-4" />
@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="mailto:learn@kellystakes.app" 
+                  href="mailto:kellystakesapp@gmail.com" 
                   className="text-gray-400 hover:text-green-500 transition-colors duration-200"
                 >
                   Educational Resources

@@ -426,16 +426,16 @@ Best Practices:
           content: `We're here to help!
 
 Email Support:
-📧 support@kellystakes.app
+📧 kellystakesapp@gmail.com
 • Response within 24-48 hours
 • Include iOS version and device model
 • Attach screenshots if relevant
 
 For Legal/Privacy:
-📧 legal@kellystakes.app
+📧 kellystakesapp@gmail.com
 
 For Business Inquiries:
-📧 business@kellystakes.app`
+📧 kellystakesapp@gmail.com`
         },
         {
           title: 'Before Contacting Support',
@@ -462,7 +462,7 @@ Common Quick Fixes:
           content: `We love hearing from users!
 
 How to Submit Ideas:
-• Email features@kellystakes.app
+• Email kellystakesapp@gmail.com
 • Describe the feature clearly
 • Explain how it would help
 • Include use case examples
@@ -550,7 +550,7 @@ Your feedback shapes Kelly Stakes!`
             className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"
           >
             <a
-              href="mailto:support@kellystakes.app"
+              href="mailto:kellystakesapp@gmail.com"
               className="bg-gray-900/50 border border-gray-800 rounded-xl p-6 hover:border-green-500/50 transition-all duration-200 group"
             >
               <Mail className="w-8 h-8 text-green-400 mb-4" />

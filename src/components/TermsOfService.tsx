@@ -116,7 +116,7 @@ Kelly Stakes is not responsible for any gambling losses incurred through the use
     },
     {
       title: 'Contact Information',
-      content: `For questions about these Terms of Service, please contact us at: legal@kellystakes.app`
+      content: `For questions about these Terms of Service, please contact us at: kellystakesapp@gmail.com`
     }
   ];
 

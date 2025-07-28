@@ -82,7 +82,7 @@ const FAQ = () => {
             Still have questions?
           </p>
           <a 
-            href="mailto:support@kellystakes.app"
+            href="mailto:kellystakesapp@gmail.com"
             className="text-green-500 hover:text-green-400 font-semibold transition-colors duration-200"
           >
             Contact our support team

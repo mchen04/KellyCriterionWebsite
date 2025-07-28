@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
     {
       title: 'Contact Us',
       icon: Mail,
-      content: `If you have any questions about this Privacy Policy or our privacy practices, please contact us at: privacy@kellystakes.app`
+      content: `If you have any questions about this Privacy Policy or our privacy practices, please contact us at: kellystakesapp@gmail.com`
     }
   ];
 

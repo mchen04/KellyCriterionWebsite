@@ -108,7 +108,7 @@ const Education = () => {
                 Download Kelly Stakes
               </a>
               <a 
-                href="mailto:learn@kellystakes.app"
+                href="mailto:kellystakesapp@gmail.com"
                 className="border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-200"
               >
                 Learn More Resources
