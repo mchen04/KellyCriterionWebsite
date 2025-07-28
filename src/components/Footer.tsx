@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calculator, Mail, Shield, FileText } from 'lucide-react';
+import { Calculator, Mail, Shield, FileText, HelpCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -59,6 +59,15 @@ const Footer = () => {
                 >
                   <Mail className="w-4 h-4" />
                   <span>Contact Support</span>
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="/help" 
+                  className="text-gray-400 hover:text-green-500 transition-colors duration-200 flex items-center space-x-2"
+                >
+                  <HelpCircle className="w-4 h-4" />
+                  <span>Help Center</span>
                 </a>
               </li>
               <li>

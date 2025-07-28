@@ -14,6 +14,7 @@ import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsOfService from './components/TermsOfService';
+import Help from './components/Help';
 
 // Home page component
 const HomePage = () => {
@@ -60,6 +61,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/help" element={<Help />} />
         </Routes>
         <Footer />
       </div>
